@@ -5,6 +5,7 @@ from .abc import InputOutputInterface
 
 
 class FileInputOutputInterface(InputOutputInterface):
+    '''Интерфейс для работы с файлами'''
     
     def __init__(
             self,

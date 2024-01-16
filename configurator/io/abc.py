@@ -6,7 +6,6 @@ from abc import ABC, abstractmethod
 
 
 class InputOutputInterface(ABC):
-    '''Интерфейс для работы с файлами'''
     
     def __init__(self):
         ...
